@@ -20,7 +20,7 @@ The following RNase III animations illustrate this challenge: generating a conti
 
 <!-- VIDEO: RNaseIII_iMORPH_view2_github.mp4 -->
 
-*These introductory animations were generated with [iMORPH](https://chaconlab.org/multiscale-simulations/imod/imod-intro), our earlier normal-mode-based morphing method, **not with DRIFT**.*
+*These introductory animations were generated with [iMORPH](https://github.com/chaconlab/IMOD), our earlier normal-mode-based morphing method, **not with DRIFT**.*
 
 DRIFT tackles the same problem using a different computational approach based on Dynamic Relaxation.
 
