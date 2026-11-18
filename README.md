@@ -125,13 +125,11 @@ Initial-to-final ΔRMSD: **12.24 Å** · Final RMSD: **0.94 Å** · Runtime: **2
 
 **View 1**
 <!-- VIDEO: GroEL_monomer_1aonH_1aonA_view1_github.mp4 -->
-https://github.com/user-attachments/assets/7fe70c3c-b980-4534-b56f-95bfa7c13e7f
-
+https://github.com/user-attachments/assets/617d3ee8-6a66-4db2-9156-0f788fb73a53
 
 **View 2**
 <!-- VIDEO: GroEL_monomer_1aonH_1aonA_view2_github.mp4 -->
-https://github.com/user-attachments/assets/11eda45b-78b1-4c53-8b78-fc8990943dc5
-
+https://github.com/user-attachments/assets/74c49f44-1563-47fa-b609-29a6bc046256
 
 #### SERCA calcium ATPase
 
