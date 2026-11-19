@@ -10,21 +10,26 @@ DRIFT is a computational framework that adapts **Dynamic Relaxation (DR)** from 
 
 Biological macromolecules often change shape to perform their functions. Connecting two experimentally determined conformations through structurally feasible intermediate structures helps visualize collective motions and provides starting points for further analyses, including molecular dynamics and docking. Generating such trajectories efficiently becomes increasingly challenging as the systems grow larger.
 
-The following RNase III animations illustrate this challenge: generating a continuous conformational transition between the enzyme's closed and open structures.
+The following RNase III* animations illustrate this challenge: generating a continuous conformational transition from the enzyme's closed structure [1yyo](https://www.rcsb.org/structure/1YYO) to the open conformation [1yyw](https://www.rcsb.org/structure/1YYW).
+
+* RNase III is a bacterial enzyme that recognizes double-stranded RNA and contributes to RNA processing and gene regulation. Its large conformational rearrangement provides a clear example of the structural flexibility involved in RNA recognition and cleavage.
 
 **RNase III — Conformational transition, view 1**
 <!-- VIDEO: RNaseIII_iMORPH_view1_github.mp4 -->
-https://github.com/user-attachments/assets/6cafb354-2e81-4dfe-ac84-4ca7f444351c
-
+<!-- https://github.com/user-attachments/assets/6cafb354-2e81-4dfe-ac84-4ca7f444351c -->
+<!-- VIDEO: RNaseIII_1yyo_1yyw_view1_github.mp4 -->
+https://github.com/user-attachments/assets/a60a7479-6dc7-477f-a770-9db1bdac24e4
 
 
 **RNase III — Conformational transition, view 2**
 <!-- VIDEO: RNaseIII_iMORPH_view2_github.mp4 -->
-https://github.com/user-attachments/assets/4b381957-c4e5-4756-ad24-2af027b301c5
+<!-- https://github.com/user-attachments/assets/4b381957-c4e5-4756-ad24-2af027b301c5 -->
+<!-- VIDEO: RNaseIII_1yyo_1yyw_view2_github.mp4 -->
+https://github.com/user-attachments/assets/bad3597e-66f0-4329-891a-73721764b4fb
 
-*These introductory animations were generated with [iMORPH](https://github.com/chaconlab/IMOD), our earlier normal-mode-based morphing method, **not with DRIFT**.*
+**[1yyo](https://www.rcsb.org/structure/1YYO) → [1yyw](https://www.rcsb.org/structure/1YYW)** · 439 residues · 3,666 atoms  
+Initial-to-final ΔRMSD: **17.56 Å** · Final RMSD: **0.88 Å** · Runtime: **27 s**
 
-DRIFT tackles the same problem using a different computational approach based on Dynamic Relaxation.
 
 ## How DRIFT works
 
@@ -71,21 +76,6 @@ At each iteration, DRIFT propagates motion, evaluates elastic and collision forc
 ## Conformational transitions — From proteins to viral capsids
 
 The following demonstrations progress from individual proteins to very large macromolecular assemblies, following the presentation given at the **Stockholm symposium in June 2026**. All results are **preliminary**; runtimes refer to the computational setups used in that presentation.
-
-### RNase III — First DRIFT example
-
-RNase III is a bacterial enzyme that recognizes double-stranded RNA and contributes to RNA processing and gene regulation. Its large conformational rearrangement provides a clear example of the structural flexibility involved in RNA recognition and cleavage.
-
-**[1yyo](https://www.rcsb.org/structure/1YYO) → [1yyw](https://www.rcsb.org/structure/1YYW)** · 439 residues · 3,666 atoms  
-Initial-to-final ΔRMSD: **17.56 Å** · Final RMSD: **0.88 Å** · Runtime: **27 s**
-
-**View 1**
-<!-- VIDEO: RNaseIII_1yyo_1yyw_view1_github.mp4 -->
-https://github.com/user-attachments/assets/a60a7479-6dc7-477f-a770-9db1bdac24e4
-
-**View 2**
-<!-- VIDEO: RNaseIII_1yyo_1yyw_view2_github.mp4 -->
-https://github.com/user-attachments/assets/bad3597e-66f0-4329-891a-73721764b4fb
 
 
 ### Benchmark — 46 protein transitions
